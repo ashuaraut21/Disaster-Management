@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_pageview"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_sensor_info"
+            android:icon="@drawable/ic_sensor_data"
+            android:title="Sensor Info" />
+        <!--<item-->
+        <!--android:id="@+id/nav_services"-->
+        <!--android:icon="@drawable/ic_menu_manage"-->
+        <!--android:title="Services" />-->
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/ic_about"
+            android:title="About Us" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_message_us"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Message Us" />
+        </menu>
+    </item>
+
+</menu>
