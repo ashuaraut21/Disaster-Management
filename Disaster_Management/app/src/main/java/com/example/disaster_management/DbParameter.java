@@ -1,7 +1,7 @@
 package com.example.disaster_management;
 
 public class DbParameter {
-	String url="https://arprojects.tech/Aniket/";
+	String url=""; //Project URL
 
 	public String getHostpath(){
 		return this.url;
