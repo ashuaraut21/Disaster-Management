@@ -52,7 +52,7 @@ public class Weather extends AppCompatActivity {
                 try {
 
 
-                    String url="http://api.openweathermap.org/data/2.5/weather?q="+city.getText().toString()+"&appid=13bb991048d2c482bc34748ab7dd5142";
+                    String url="http://api.openweathermap.org/data/2.5/weather?q="+city.getText().toString()+"&appid=";//API KEY REQUIRED
                     getJSON(url);
                 }catch (Exception e){
                     Toast.makeText(Weather.this,""+e,Toast.LENGTH_LONG).show();
